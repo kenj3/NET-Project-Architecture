@@ -9,7 +9,7 @@ All code has to be lowercase. This applies to HTML element names, attributes, at
 
 Not Recommended
 
-<pre><code><A HREF="/">Home</A></code></pre>
+    <A HREF="/">Home</A>
 
 Recommended
 
