@@ -144,5 +144,7 @@ The only exceptions apply to characters with special meaning in HTML (like < and
 > ###### Recommended:
 > `The currency symbol for the Euro is “€”.`
 
+### type Attributes
+Omit type attributes for style sheets and scripts.
 
-
+Do not use type attributes for style sheets and scripts. Specifying type attributes in these contexts is not necessary as HTML implies *text/css* and *text/javascript* as defaults. This can be safely done even for older browsers
