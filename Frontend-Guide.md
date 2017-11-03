@@ -199,3 +199,15 @@ Also, indent them if they are child elements of a block, list or table element (
 </table>
 ```
 
+### HTML Quotation Marks
+When quoting attribute values, use double quotation marks.
+
+> ###### Not Recommended:
+>
+> `<a href='login/' class='btn btn-secondary'>Login</a>`
+>
+> ###### Recommended:
+>
+> `<a href="login/" class="btn btn-secondary">Login</a>`
+
+
