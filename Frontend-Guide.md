@@ -11,7 +11,7 @@ Not Recommended
 
     <A HREF="/">Home</A>
 
-Recommended
+> Recommended
 
     <a href="/">Home</a>  
 
