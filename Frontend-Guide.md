@@ -39,5 +39,9 @@ Indentation should be consistent throughout the entire file. Whether you choose 
 ## General Meta Rules
 ###  Encoding
 Use UTF-8 (no BOM).
+
 Make sure your editor uses UTF-8 as character encoding, without a byte order mark. Specify the encoding in HTML templates and documents with <meta charset="utf-8">.
 
+### Comments
+Explain code as needed, where possible.
+Use comments to explain code: What does it cover, what purpose does it serve, and why is the respective solution used or preferred?
