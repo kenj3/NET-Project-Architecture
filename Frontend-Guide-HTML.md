@@ -1,4 +1,4 @@
-# Frontend Nanodegree Style Guide - HTML
+# Frontend Style Guide - HTML
 ---
 ## General Formatting Rules
 
