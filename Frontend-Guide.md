@@ -52,7 +52,7 @@ Mark todos and action items with `TODO:`
 
 Highlight todos by using the keyword TODO only, not other formats like @@. Append action items after a colon like this: TODO: action item.
 
-> Recommended:
+> ###### Recommended:
 ``` html
 <!-- TODO: add other fruits -->
 <ul>
@@ -92,3 +92,19 @@ Using valid HTML is a measurable baseline quality that ensures proper HTML usage
     </body>
 </html>
 ```
+
+### Semantics
+Use HTML according to its purpose.
+
+Use elements for what they have been created for. For example, use heading elements for headings, p elements for paragraphs, a elements for anchor, etc. Using HTML according to its purpose is important for accessibility, reuse and code efficiency reasons.
+
+> ###### Not Recommended:
+>
+> `<div onclick="goToRecommendations();">All recommendations</div>`
+>
+> ###### Recommended:
+>
+> `<a href="recommendations/">All recommendations</a>`
+
+
+
