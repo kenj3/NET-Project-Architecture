@@ -75,8 +75,10 @@ Use valid HTML.
 Using valid HTML is a measurable baseline quality that ensures proper HTML usage and contributes to learning about technical requirements and constraints.
 
 > Not Recommended:
+>
 > `<title>Page Title</title>`
 > `<article>This is an article.`
+>
 > Recommended:
 ```html
 <!DOCTYPE html>
