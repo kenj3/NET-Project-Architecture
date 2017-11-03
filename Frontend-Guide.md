@@ -11,3 +11,8 @@ Not Recommended
 
     <A HREF="/">Home</A>
 
+Recommended
+
+    <a href="/">Home</a>
+    
+    
