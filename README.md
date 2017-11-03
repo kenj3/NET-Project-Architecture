@@ -3,7 +3,9 @@
 This is a summary guide for .NET developers to design a proper strucutre of middle size B/S system.
 
 [Frontend Guide - Html][ref01]
+
 [Frontend Guide - Css][ref02]
+
 [Frontend Guide - Javascript][ref03]
 
 
