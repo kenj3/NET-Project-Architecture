@@ -44,4 +44,19 @@ Make sure your editor uses UTF-8 as character encoding, without a byte order mar
 
 ### Comments
 Explain code as needed, where possible.
+
 Use comments to explain code: What does it cover, what purpose does it serve, and why is the respective solution used or preferred?
+
+### Action Items
+Mark todos and action items with `TODO:`
+
+Highlight todos by using the keyword TODO only, not other formats like @@. Append action items after a colon like this: TODO: action item.
+
+> Recommended:
+```
+> <!-- TODO: add other fruits -->
+> <ul>
+>   <li>Apples</li>
+>    <li>Oranges</li>
+> </ul>
+```
