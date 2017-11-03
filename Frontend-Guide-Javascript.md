@@ -1,1 +1,1 @@
-# Frontend Nanodegree Style Guide - Javascript
+# Frontend Style Guide - Javascript
