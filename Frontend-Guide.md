@@ -20,16 +20,16 @@ Remove trailing white spaces.
 
 Trailing white spaces are unnecessary and can complicate diffs.
 
-Not Recommended:
-
-    <p>What?</p>__
-
-Recommended
-
-    <p>What?</p>
+> Not Recommended:
+> 
+>`<p>What?</p>__`
+>
+> Recommended
+>
+>`<p>What?</p>`
 
 If using Sublime Text, this can be done automatically each time you save a file by adding the following to your User Settings JSON file (you should be able to find this within Sublime Text's menu):
 
-``` Html
-    "trim_trailing_white_space_on_save": true
-```
+>
+>`"trim_trailing_white_space_on_save": true`
+
