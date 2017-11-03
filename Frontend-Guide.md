@@ -106,5 +106,43 @@ Use elements for what they have been created for. For example, use heading eleme
 >
 > `<a href="recommendations/">All recommendations</a>`
 
+### Multimedia Fallback
+Provide alternative contents for multimedia.
+
+For multimedia, such as images, video, or animated objects via canvas, make sure to offer alternative access. For images that means use of meaningful alternative text and for video and audio transcripts and captions, if available.
+
+Providing alternative contents is important for accessibility reasons. A blind user has few cues to tell what an image is about without the alt attributes, and other users may have no way of understanding what video or audio contents are about either.
+
+For images whose alt attributes would introduce redundancy and for images whose purpose is purely decorative which you cannot immediately use CSS for, use no alternative text, as in `alt=""`.
+> ###### Not Recommended:
+>
+> `<img src="udacity.png">`
+>
+> ###### Recommended:
+>
+> `<img src="udacity.png" alt="Udacity logo">`
+
+### Separation of Concerns
+Separate structure from presentation from behavior.
+
+Strictly keep structure (markup), presentation (styling), and behavior (scripting) apart, and try to keep the interaction between the three to an absolute minimum.
+
+That is, make sure documents and templates contain only HTML and HTML that is solely serving structural purposes. Move everything presentational into style sheets, and everything behavioral into scripts. In addition, keep the contact area as small as possible by linking as few style sheets and scripts as possible from documents and templates.
+
+Separating structure from presentation from behavior is important for maintenance reasons. It is almost always more expensive to change HTML documents and templates than it is to update style sheets and scripts.
+
+### Entity References
+Do not use entity references.
+
+There is no need to use entity references like `&mdash;, &rdquo;, or &#x263a;`, assuming the same encoding (UTF-8) is used for files and editors as well as among teams.
+
+The only exceptions apply to characters with special meaning in HTML (like < and &) as well as control or “invisible” characters (like no-break spaces).
+
+> ###### Not Recommended:
+>
+> `The currency symbol for the Euro is &ldquo;&eur;&rdquo;.`
+> ###### Recommended:
+> `The currency symbol for the Euro is “€”.`
+
 
 
