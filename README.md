@@ -2,6 +2,7 @@
 
 This is a summary guide for .NET developers to design a proper strucutre of middle size B/S system.
 
-[Frontend Guide][foo]
+[Frontend Guide][ref01]
 
-[foo]: https://github.com/kenj3/NET-Project-Architecture/blob/master/Frontend-Guide.md  "Frontend-Guide"
+
+[ref01]: https://github.com/kenj3/NET-Project-Architecture/blob/master/Frontend-Guide.md  "Frontend-Guide"
