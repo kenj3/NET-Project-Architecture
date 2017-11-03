@@ -144,7 +144,7 @@ The only exceptions apply to characters with special meaning in HTML (like < and
 > ###### Recommended:
 > `The currency symbol for the Euro is “€”.`
 
-### type Attributes
+### Type Attributes
 Omit type attributes for style sheets and scripts.
 
 Do not use type attributes for style sheets and scripts. Specifying type attributes in these contexts is not necessary as HTML implies *text/css* and *text/javascript* as defaults. This can be safely done even for older browsers
@@ -164,4 +164,38 @@ Do not use type attributes for style sheets and scripts. Specifying type attribu
 > ###### Recommended:
 > `<script src="js/app.js"></script>`
 
+## HTML Formatting Rules
+### General Formatting
+Use a new line for every block, list or table element and indent every such child element.
+
+Independent of the styling of an element (as CSS allows elements to assume a different role per display property), put every block, list or table element on a new line.
+
+Also, indent them if they are child elements of a block, list or table element (if you run into issues around whitespace between list items it's acceptable to put all *li* elements in one line).
+> ###### Recommended:
+```html
+<blockquote>
+    <p><em>Space</em>, the final frontier.</p>
+</blockquote>
+
+<ul>
+    <li>Moe</li>
+    <li>Curry</li>
+    <li>Larry</li>
+</ul>
+
+<table>
+    <thead>
+        <tr>
+            <th scope="col">Income</th>
+            <th scope="col">Taxes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>$5.00</td>
+            <td>$4.50</td>
+        </tr>
+    </tbody>
+</table>
+```
 
