@@ -3,11 +3,9 @@
 This is a summary guide for .NET developers to design a proper strucutre of middle size B/S system.
 
 ## Frontend Guide
-[1. Html][ref01]
-
-[2. Css][ref02]
-
-[3. Javascript][ref03]
+- [1. Html][ref01]
+- [2. Css][ref02]
+- [3. Javascript][ref03]
 
 
 [ref01]: https://github.com/kenj3/NET-Project-Architecture/blob/master/Frontend-Guide-HTML.md  "Frontend Guide Html"
