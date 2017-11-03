@@ -61,3 +61,32 @@ Highlight todos by using the keyword TODO only, not other formats like @@. Appen
 </ul>
 ```
 
+## HTML Style Rules
+### Document Type
+Use HTML5.
+
+HTML5 (HTML syntax) is preferred for all HTML documents: `<!DOCTYPE html>`.
+
+Do not close self-closing elements, ie. write `<br>`, not `<br />`.
+
+### HTML Validity
+Use valid HTML.
+
+Using valid HTML is a measurable baseline quality that ensures proper HTML usage and contributes to learning about technical requirements and constraints.
+
+> Not Recommended:
+> `<title>Page Title</title>`
+> `<article>This is an article.`
+> Recommended:
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Page Title</title>
+    </head>
+    <body>
+        <article>This is an article.</article>
+    </body>
+</html>
+```
