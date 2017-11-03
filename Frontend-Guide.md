@@ -20,11 +20,11 @@ Remove trailing white spaces.
 
 Trailing white spaces are unnecessary and can complicate diffs.
 
-> Not Recommended:
+> ###### Not Recommended:
 > 
 >`<p>What?</p>__`
 >
-> Recommended
+> ###### Recommended
 >
 >`<p>What?</p>`
 
