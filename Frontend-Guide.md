@@ -7,11 +7,11 @@ Use only lowercase.
 
 All code has to be lowercase. This applies to HTML element names, attributes, attribute values (unless text/CDATA).
 
-> Not Recommended
+> ##### Not Recommended
 >
 >`<A HREF="/">Home</A>`
 >
-> Recommended
+> ##### Recommended
 >
 >`<a href="/">Home</a>`
 
