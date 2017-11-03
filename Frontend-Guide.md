@@ -33,3 +33,11 @@ If using Sublime Text, this can be done automatically each time you save a file 
 >
 >`"trim_trailing_white_space_on_save": true`
 
+### Indentation
+Indentation should be consistent throughout the entire file. Whether you choose to use tabs or spaces, or 2-spaces vs. 4-spaces - just be consistent!
+
+## General Meta Rules
+###  Encoding
+Use UTF-8 (no BOM).
+Make sure your editor uses UTF-8 as character encoding, without a byte order mark. Specify the encoding in HTML templates and documents with <meta charset="utf-8">.
+
