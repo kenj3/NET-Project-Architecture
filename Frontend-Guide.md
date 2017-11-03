@@ -1,5 +1,5 @@
 # Frontend Nanodegree Style Guide - HTML
-
+---
 ## General Formatting Rules
 
 ### Capitalization
