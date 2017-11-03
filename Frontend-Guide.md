@@ -30,5 +30,6 @@ Recommended
 
 If using Sublime Text, this can be done automatically each time you save a file by adding the following to your User Settings JSON file (you should be able to find this within Sublime Text's menu):
 
+``` Html
     "trim_trailing_white_space_on_save": true
-
+```
