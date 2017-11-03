@@ -9,5 +9,5 @@ All code has to be lowercase. This applies to HTML element names, attributes, at
 
 Not Recommended
 
-<font color="red">    <A HREF="/">Home</A>
-</font>
+    <A HREF="/">Home</A>
+
