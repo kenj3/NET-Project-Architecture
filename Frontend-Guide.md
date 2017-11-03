@@ -148,3 +148,20 @@ The only exceptions apply to characters with special meaning in HTML (like < and
 Omit type attributes for style sheets and scripts.
 
 Do not use type attributes for style sheets and scripts. Specifying type attributes in these contexts is not necessary as HTML implies *text/css* and *text/javascript* as defaults. This can be safely done even for older browsers
+
+> ###### Not Recommended:
+>
+> `<link rel="stylesheet" href="css/style.css" type="text/css">`
+>
+> ###### Recommended:
+>
+> `<link rel="stylesheet" href="css/style.css">`
+>
+> ###### Not Recommended:
+>
+> `<script src="js/app.js" type="text/javascript"></script>`
+>
+> ###### Recommended:
+> `<script src="js/app.js"></script>`
+
+
