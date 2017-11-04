@@ -176,13 +176,11 @@ Also, indent them if they are child elements of a block, list or table element (
 <blockquote>
     <p><em>Space</em>, the final frontier.</p>
 </blockquote>
-
 <ul>
     <li>Moe</li>
     <li>Curry</li>
     <li>Larry</li>
 </ul>
-
 <table>
     <thead>
         <tr>
