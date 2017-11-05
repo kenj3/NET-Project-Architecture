@@ -116,11 +116,11 @@ Providing alternative contents is important for accessibility reasons. A blind u
 For images whose alt attributes would introduce redundancy and for images whose purpose is purely decorative which you cannot immediately use CSS for, use no alternative text, as in `alt=""`.
 > ###### Not Recommended:
 >
-> `<img src="udacity.png">`
+> `<img src="cat.png">`
 >
 > ###### Recommended:
 >
-> `<img src="udacity.png" alt="Udacity logo">`
+> `<img src="cat.png" alt="cat">`
 
 ### Separation of Concerns
 Separate structure from presentation from behavior.
