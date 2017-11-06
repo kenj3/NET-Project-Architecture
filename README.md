@@ -6,7 +6,7 @@ This is a summary guide for .NET developers to design a proper strucutre of midd
 Tools |   | Description | WebSite
 ------|---|-------------|--------
 ![Exception Less](https://github.com/kenj3/NET-Project-Architecture/blob/master/images/example-exceptionless1.jpg) | Exceptionless | A powerful tool that provides real-time error reporting for Javascript, .Net, WebAPI, WebForm etc. | https://exceptionless.com/ https://github.com/exceptionless/Exceptionless
-| Jenkins | Jenkins is a self-contained, open source automation server which can be used to automate all sorts of tasks related to building, testing, and deploying software| https://jenkins.io/
+![Jenkins](https://github.com/kenj3/NET-Project-Architecture/blob/master/images/example-jenkins1.jpg)| Jenkins | Jenkins is a self-contained, open source automation server which can be used to automate all sorts of tasks related to building, testing, and deploying software| https://jenkins.io/
 | GitLab | GitLab is an open source software to collaborate on code. Use GitLab to replace TFS of VS |
 | 禅道 | Project management software for collaborate on projects |
 
