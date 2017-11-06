@@ -2,6 +2,15 @@
 
 This is a summary guide for .NET developers to design a proper strucutre of middle size B/S system.
 
+## Database Related Tools
+### MySQL
+
+### Redis
+
+### Database Management Tool
+* Navicat Premium_11.2.7
+* redis-desktop-manager-0.7.6.15
+
 ## Recommended Tools 
 Tools |   | Description
 ------|---|-------------
