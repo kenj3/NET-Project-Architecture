@@ -115,3 +115,84 @@ padding: 0 1em 2em;
 ```
 
 ### 0 and Units
+omit unit specification after `0` value.
+
+> Not Recommended:
+>
+> `margin: 0em;`
+>
+> Recommended
+>
+> `margin: 0;`
+
+### Leading 0s
+Include leading `0`s in decimal values for readability.
+
+> Not Recommended
+>
+> `font-size: .9em;`
+>
+> Recommended
+>
+> `font-size: 0.9em;`
+
+### Hexadecimal Notation
+Use 3-character hexadecimal notation where possible.
+
+> Not Recommended
+>
+> `color: #eeffcc;`
+>
+> Recommended
+>
+> `color: #efc;`
+
+### ID and Class Name Delimeters
+Separate words ID and class names by a hyphen (`-`)
+
+Use hyphens to concatenate words and abbreviations in selectors in order to improve understanding and scannability.
+
+One exception: underscores(`_`) are also acceptable separators.
+
+> Not Recommended
+> 
+> `.errorStatus {...}`
+>
+> Recommend
+>
+> `.error-status {...}`
+
+### Hacks
+Avoid user agent detection as well as CSS "hacks" - try a different approach first.
+
+## CSS Formatting Rules
+### Block Content Indentation
+Indent all block content, that is rules within rules as well as declarations to reflect hierarchy and improve understanding.
+
+> Recommend
+``` css
+@media screen, projection {
+    html {
+        background: #000;
+        color: #fff;
+    }
+}
+```
+
+### Declaration Stops
+Use a semicolon after every declaration for consistency and extensibility reasons.
+
+> Not Recommended
+``` css
+.error-status {
+    display: block;
+    color: red
+}
+```
+> Recommended
+``` css
+.error-status {
+    display: block;
+    color: red;
+}
+```
