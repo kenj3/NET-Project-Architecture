@@ -72,5 +72,19 @@ Instead of presentational of cryptic names, always use ID and Class names that r
 > `btn-default {...}`
 
 ### Type Selectors
+Avoid qualifying ID and class names with type selectors.
 
+Unless necessory(for example, with helper classes), do not use element names in conjuction with IDs or classes. Avoiding unnecessary ancester selectors is useful for performance reasons.
+
+It is also considered bad practice to use IDs in CSS files. There are no situations where IDs provide benefit over classes. If you need to use a unique name for an element, use a class. (The only benefit IDs provide is speed, and is only beneficial on pages with thousands of similar elements)
+
+> Not Recommended
+> `ul#example {...}`
+> 
+> `div.error {...}`
+>
+> Recommended
+> `.example {...}`
+>
+> `.error {...}`
 
