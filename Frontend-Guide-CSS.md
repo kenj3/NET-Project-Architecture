@@ -65,11 +65,10 @@ Instead of presentational of cryptic names, always use ID and Class names that r
 
 > Not Recommended
 >
-> `maring10 {...}`
 > `btn-green {...}`
 >
 > Recommended
-> `gallery-home {...}`
+>
 > `btn-default {...}`
 
 ### Type Selectors
