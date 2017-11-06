@@ -196,3 +196,90 @@ Use a semicolon after every declaration for consistency and extensibility reason
     color: red;
 }
 ```
+
+### Property Name Stops
+Always use a space after propery name's colon, but no space between property and colon, for consistency reasons.
+
+> Not Recommended
+>
+> `padding : 1em;`
+>
+> Recommended
+>
+> `padding: 1em;`
+
+### Declaration Block Separation
+Always use single space between the last selector and the opening brace that begins the declaration block.
+
+> Not Recommended
+``` css
+.video-block{
+    margin: 0;
+}
+
+.audio-block
+{
+    margin: 0;
+}
+```
+> Recommended
+``` css
+.video-block {
+    margin: 0;
+}
+
+.audio-block {
+    margin: 0;
+}
+```
+
+### CSS Quatation Marks
+Use double quotation marks for attribute selectors or property values. Do not use quotation marks in URI values (`url()`).
+
+> Not Recommended
+``` css
+@import url("css/links.css");
+
+html {
+    font-family: 'Open Sans', arial, sans-serif;
+}
+```
+> Recommended
+``` css
+@import url(css/links.css);
+
+html {
+    font-family: "Open Sans", arial, sans-serif;
+}
+```
+
+## CSS Meta Rules
+### Section Comments
+If possible, group style sheet sections together by using comments. Separate sections with new lines.
+
+> Recommended
+``` css
+/* Header */
+.header {
+    …
+}
+.header-nav {
+    …
+}
+
+/* Content */
+.gallery {
+    …
+}
+.gallery-img {
+    …
+}
+
+/* Footer */
+.footer {
+    …
+}
+.footer-nav {
+    …
+}
+```
