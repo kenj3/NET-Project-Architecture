@@ -5,12 +5,26 @@ There are many options on the 'ideal' style in the world of the Front-End Web De
 
 ## General Formatting Rules
 ### Capitalization
-use only lowercase
+Use only lowercase
+
 All code has to be lowercase. This applies to CSS selectors, properties and property values.
 
 > ###### Not Recommended
 >
 >`color: #FFFFFF;`
+>
+> ###### Recommended
+>
+>`color: #ffffff;`
+
+### Trailing Whitespace
+Reomve trailing white spaces.
+
+Trailing white spaces are unnecessary and can complcate diffs.
+
+> ###### Not Recommended
+>
+>`color: #FFFFFF;__`
 >
 > ###### Recommended
 >
