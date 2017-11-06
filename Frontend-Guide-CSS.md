@@ -51,3 +51,27 @@ Highlight todos by using the keyword `TODO` only. Append action items after a co
 
 > Recommend:
 > `/* TODO: add color style */`
+
+## CSS Style Rules
+### CSS Validity
+Use valid CSS
+
+Using valid CSS is a measurable baseline quality that ensures proper CSS usage allow you to spot CSS code that may not have any effect and can be removed.
+
+### ID and Class Naming
+Use meaningful or general ID and Class names.
+
+Instead of presentational of cryptic names, always use ID and Class names that reflect the purpose of element in question or that are otherwise generic. Names that are specific and reflect the purpose of element should be preferred as these are most understandable and least likely to change. Generic names are simply a fallback for elements that have no particular meaning different from their siblings. They are typically needed as helpers.
+
+> Not Recommended
+>
+> `maring10 {...}`
+> `btn-green {...}`
+>
+> Recommended
+> `gallery-home {...}`
+> `btn-default {...}`
+
+### Type Selectors
+
+
