@@ -29,3 +29,25 @@ Trailing white spaces are unnecessary and can complcate diffs.
 > ###### Recommended
 >
 >`color: #ffffff;`
+
+### Indentation
+Indetation should be consistent throughout the entire file. Whther you choose to use tabs or spaces, or 2-spaces vs. 4-spaces, just be consistent!
+
+## General Meta Rules
+### Encoding
+Use UTF-8
+
+Make sure your editor uses UTF-8 as character encoding.
+
+### Comments
+Explain code as needed, where possible.
+
+Use comments to explain code: What does it cover, What porpose does it serve, and why is the respective solution used or preferred?
+
+### Action Items
+Mark todos and action items with `TODO:`
+
+Highlight todos by using the keyword `TODO` only. Append action items after a colon like this: `TODO: action item`
+
+> Recommend:
+> `/* TODO: add color style */`
