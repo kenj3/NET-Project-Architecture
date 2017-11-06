@@ -90,3 +90,26 @@ It is also considered bad practice to use IDs in CSS files. There are no situati
 >
 > `.error {...}`
 
+### Shorthand Properties
+Shorthand should be used
+
+CSS offers a variety of shorthand properties. like `padding` rather than `padding-top`, `padding-left` etc. That should be used whenever possible, with the exception of font properties and properties intend to overwrite properties of the same name in framework such as Bootstrap.
+
+> Not Recommended
+``` css
+border-top-style: none;
+font-family: palatino, georgia, serif;
+font-size: 100%;
+line-height: 1.6;
+padding-bottom: 2em;
+padding-left: 1em;
+padding-right: 1em;
+padding-top: 0;
+```
+
+> Recommend
+``` css
+border-top: 0;
+font: 100%/1.6 palatino, georgia, serif;
+padding: 0 1em 2em;
+```
