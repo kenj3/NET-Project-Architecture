@@ -9,6 +9,8 @@ This is a general help for using Git and provide a quick reference of all Git co
 Comment | Description
 ------- | -----------
 `git help` | Display help information about Git
-
-
+`git config` | Display help information about 'git config' command
+`git config --list` | Display current configuration
+`git config --global user.name "usename"` | Set global username
+`git config --global user.email "email"` | Set global email
 [ref01]: https://git-for-windows.github.io/  "Git Download for windows"
