@@ -1,3 +1,5 @@
 # Frontend Style Guide - Javascript
 
-1
+## General Meta Rules
+### Encoding
+Use UTF-8(no BOM)
