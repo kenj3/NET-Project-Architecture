@@ -27,10 +27,14 @@ Tools |   | Description
 - [2. Css][ref02]
 - [3. Javascript][ref03]
 
+## Useful Guides of various tools
+- [A quick reference guide of Git][ref04]
+
 
 [ref01]: https://github.com/kenj3/NET-Project-Architecture/blob/master/Frontend-Guide-HTML.md  "Frontend Guide Html"
 [ref02]: https://github.com/kenj3/NET-Project-Architecture/blob/master/Frontend-Guide-CSS.md  "Frontend-Guide Css"
 [ref03]: https://github.com/kenj3/NET-Project-Architecture/blob/master/Frontend-Guide-Javascript.md  "Frontend-Guide Javascript"
+[ref04]: https://github.com/kenj3/NET-Project-Architecture/blob/master/Git-Quick-Reference.md "Git Quick Guide"
 
 [img01]: https://github.com/kenj3/NET-Project-Architecture/blob/master/images/example-exceptionless1.jpg
 [img02]: https://github.com/kenj3/NET-Project-Architecture/blob/master/images/example-jenkins1.jpg
