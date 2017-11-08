@@ -60,16 +60,18 @@ Command | Description
 
 ### Standard Routines
 #### Commit your work to server
-`$git add -A` // add all updated files to local stage.
-`$git commit -m "your description"` // commit all added files to local stage.
-`$git push` 
-
+```
+$git add -A                         // add all updated files to local stage.
+$git commit -m "your description"   // commit all added files to local stage.
+$git push                           // upload to remove server
+```
 
 #### Merge changes from a branch to master
-`$git checkout master`         // back to master branch
-`$git merge branch_1_name`     // incorporate branch_1_name into master
-`$git branch -d branch_1_name` // delete branch branch_1_name
-
+```
+$git checkout master                // back to master branch
+$git merge branch_1_name            // incorporate branch_1_name into master
+$git branch -d branch_1_name        // delete branch branch_1_name
+```
 
 [ref01]: https://git-for-windows.github.io/  "Git Download for windows"
 [ref02]: https://git-scm.com/docs "Git official document"
