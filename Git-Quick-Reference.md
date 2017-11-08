@@ -15,8 +15,8 @@ Command | Description
 *git config --global user.email "email"* | Set global email
 
 ### Standard Routine to commit everything to server
-1 `git add -A`
-2 `git commit -m "your description"`
-3 `git push` 
+1. `git add -A`
+2. `git commit -m "your description"`
+3. `git push` 
 
 [ref01]: https://git-for-windows.github.io/  "Git Download for windows"
