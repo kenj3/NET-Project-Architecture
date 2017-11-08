@@ -50,7 +50,7 @@ Command | Description
 *push*  | Update remote refs along with associated objects
 *remote*| Manage set of tracked repositories
 
-Inspection and Comparison
+### Inspection and Comparison
 Command | Description
 ------- | -----------
 *show*  | Show various types of objects
