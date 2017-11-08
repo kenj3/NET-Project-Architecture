@@ -8,7 +8,7 @@ This is a general help for using Git and provide a quick reference of all Git co
 ### Setup and Config
 Comment | Description
 ------- | -----------
-git help | Display help information about Git
+`git help` | Display help information about Git
 
 
 [ref01]: https://git-for-windows.github.io/  "Git Download for windows"
