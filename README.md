@@ -30,6 +30,11 @@ Tools |   | Description
 ## Useful Guides of various tools
 - [A quick reference guide for Git][ref04]
 
+## Homemade Samples
+- [1. Download SignalR Chat sample][dwn01]
+- [2. Download Swagger sample][dwn02]
+
+
 
 [ref01]: https://github.com/kenj3/NET-Project-Architecture/blob/master/kbs/Frontend-Guide-HTML.md  "Frontend Guide Html"
 [ref02]: https://github.com/kenj3/NET-Project-Architecture/blob/master/kbs/Frontend-Guide-CSS.md  "Frontend-Guide Css"
@@ -40,3 +45,6 @@ Tools |   | Description
 [img02]: https://github.com/kenj3/NET-Project-Architecture/blob/master/images/example-jenkins1.jpg
 [img03]: https://github.com/kenj3/NET-Project-Architecture/blob/master/images/example-gitlab1.jpg
 [img04]: https://github.com/kenj3/NET-Project-Architecture/blob/master/images/example-chandao1.jpg
+
+[dwn01]: https://github.com/kenj3/NET-Project-Architecture/blob/master/download/SignalRChat.rar
+[dwn02]: https://github.com/kenj3/NET-Project-Architecture/blob/master/download/SwaggerDemo.rar
