@@ -28,7 +28,7 @@ Tools |   | Description
 - [3. Javascript][ref03]
 
 ## Useful Guides of various tools
-- [A quick reference guide of Git][ref04]
+- [A quick reference guide for Git][ref04]
 
 
 [ref01]: https://github.com/kenj3/NET-Project-Architecture/blob/master/kbs/Frontend-Guide-HTML.md  "Frontend Guide Html"
