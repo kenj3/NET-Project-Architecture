@@ -35,6 +35,10 @@ Lodop   | A printing solution for B/S project. Front-end user need to install th
 - [1. Download SignalR Chat sample][dwn01]
 - [2. Download Swagger sample][dwn02]
 
+## ASP.NET relate programming libraries
+Library | Description
+--------|------------
+SignalR | SignalR  is a library for ASP.NET developers to add real-time web functionality to applications. e.g. Chat system, Simple Stock Market System, High-frequency messaging that up to 10 messages a second.
 
 
 [ref01]: https://github.com/kenj3/NET-Project-Architecture/blob/master/kbs/Frontend-Guide-HTML.md  "Frontend Guide Html"
