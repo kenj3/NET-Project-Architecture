@@ -56,3 +56,4 @@ SignalR | SignalR  is a library for ASP.NET developers to add real-time web func
 
 ## ASP.NET Tech Documents
 [1. NET编程之事件总线-Event Bus](http://lmwlove.com/ac/ID1192)
+[2. .NET Core 事件总线,分布式事务解决方案：CAP](https://www.cnblogs.com/savorboard/p/cap.html)
