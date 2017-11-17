@@ -53,3 +53,6 @@ SignalR | SignalR  is a library for ASP.NET developers to add real-time web func
 
 [dwn01]: https://github.com/kenj3/NET-Project-Architecture/blob/master/download/SignalRChat.rar
 [dwn02]: https://github.com/kenj3/NET-Project-Architecture/blob/master/download/SwaggerDemo.rar
+
+## ASP.NET Tech Documents
+[1. NET编程之事件总线-Event Bus](http://lmwlove.com/ac/ID1192)
