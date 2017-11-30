@@ -34,6 +34,7 @@ Lodop   | A printing solution for B/S project. Front-end user need to install th
 ## Homemade Samples
 - [1. Download SignalR Chat sample][dwn01]
 - [2. Download Swagger sample][dwn02]
+- jquery free moving div. dragTest.html
 
 ## ASP.NET relate programming libraries
 Library | Description

@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>Jquery：鼠标拖动DIV</title>
+    <style type="text/css">
+        div#computerMove {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            width: 200px;
+            height: 200px;
+            cursor: default;
+            background-color:#eee;
+            border:solid 1px #ddd;
+            overflow:hidden;
+        }
+    </style>
+</head>
+<body>
+    <div id="computerMove">
+        <div>
+            abc <img src="images/bigger.png" style="width:16px; height:16px;" class="ChangeSize" />
+        </div>
+        <div>
+            <img src="images/tree2.jpg" style="width:50px; height:50px;" />
+            fdas dfas fdas fdas fdsa fdas 
+        </div>
+        <div>
+            <img src="images/tree2.jpg" style="width:50px; height:50px;" />
+            fdas dfas fdas fdas fdsa fdas
+        </div>
+        <div>
+            <img src="images/tree2.jpg" style="width:50px; height:50px;" />
+            fdas dfas fdas fdas fdsa fdas
+        </div>
+        <div> <input type="text" /> 
+            <input type="button" id="btn_send" value="Send" />
+        </div>
+    </div>
+    <script src="Scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        var $div = $("div#computerMove");
+        var sizeExpending = 150;
+
+        /* Bind mousedown event */
+        $div.bind("mousedown",function(event){
+            /* Get the target coordinate */
+            var offset_x = $(this)[0].offsetLeft;//x
+            var offset_y = $(this)[0].offsetTop;//y
+            /* Get current mouse coordinate */
+            var mouse_x = event.pageX;
+            var mouse_y = event.pageY;
+            /* bind dragging event */
+            /* Mouse may move out off the target, so we use document here */
+            $(document).bind("mousemove",function(ev){
+                /* Calculate x and y of movement */
+                var _x = ev.pageX - mouse_x;
+                var _y = ev.pageY - mouse_y;
+                /* Calculate x and y */
+                var now_x = (offset_x + _x ) ;
+                var now_y = (offset_y + _y);
+                /* Keep the window in the boundary */
+                var window_height = $(window).height();
+                var window_width = $(window).width();
+                var div_height = $div.height();
+                var div_width = $div.width();
+                if (now_x < 0) now_x = 0;
+                if (now_x > (window_width - div_width)) now_x = (window_width - div_width);
+                if (now_y < 0) now_y = 0;
+                if (now_y > (window_height - div_height)) now_y = (window_height - div_height);
+
+                /* Update the target position */
+                $div.css({
+                    top: now_y + "px",
+                    left: now_x + "px"
+                });
+            });
+        });
+        /* unbind the mouse when the left button of mouse */
+        $(document).bind("mouseup",function(){
+            $(this).unbind("mousemove");
+        });
+        /* Change size of the target */
+        $('.ChangeSize').click(function () {
+            var div_height = $div.height();
+            var div_width = $div.width();
+            $div.css({
+                height: (div_height + sizeExpending) + "px",
+                width: (div_width + sizeExpending) + "px"
+            });
+            sizeExpending = sizeExpending * -1;
+        });
+    })
+    </script>
+</body>
+</html>
