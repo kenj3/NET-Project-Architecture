@@ -1,7 +1,7 @@
 # Difference between ShangHai & New Zealand
 ---
 ## Data
-Category                 | Shang Hai | New Zealand
+Category                 | Shang Hai        | New Zealand
 ------------------------ | ---------------- | -----------
 People (2016)            | 24.19mil.        | 4.69mil.
 Area of land (sq.km)     | 6,340            | 268,680
