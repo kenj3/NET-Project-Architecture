@@ -1,0 +1,15 @@
+{
+  "name": "YQN前端开发规范手册",
+  "version": "1.0.0",
+  "description": "YQN前端开发规范手册",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.iyunquna.com:frontend/docs.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
