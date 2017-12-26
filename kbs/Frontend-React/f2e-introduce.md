@@ -1,4 +1,4 @@
-# 前后端分离
+# 前后端分离
 
 #### [返回目录](README.md)
 
@@ -101,8 +101,7 @@ RESTFUL服务
 > * 定期CodeReview
 > * 视觉图标规范
 > * ...  
-> 此部分前端相关内容移步
-[YQN前端开发规范手册](https://git.iyunquna.com/frontend/docs/standard/blob/master/README.md)
+
 
 ##### 6.2.4 自动化
 
