@@ -34,6 +34,6 @@ npm install --save-dev webpack
 
 切换webpack mode
 ```
-webpack --mode develop
+webpack --mode development
 webpack --mode production
 ```
