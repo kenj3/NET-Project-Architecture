@@ -22,3 +22,18 @@ npm config set registry http://www.npmjs.org
 npm info underscore
 ```
 
+## 安装webpack
+在项目的package.json目录下执行的命令分别是
+```
+npm install -g webpack
+```
+和 
+```
+npm install --save-dev webpack
+```
+
+切换webpack mode
+```
+webpack --mode develop
+webpack --mode production
+```
