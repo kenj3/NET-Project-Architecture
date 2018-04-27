@@ -43,3 +43,13 @@ webpack --mode production
 ```
 npm install webpack-cli -g
 ```
+
+## 安装各种解析plugin
+es6解析
+```
+npm install babel-loader --save
+```
+
+```
+npm install --save-dev extract-text-webpack-plugin
+```
