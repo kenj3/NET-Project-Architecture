@@ -23,17 +23,23 @@ npm info underscore
 ```
 
 ## 安装webpack
+各种不同的版本有很大差别，会涉及到打包等方法和命令的不同。
 在项目的package.json目录下执行的命令分别是
 ```
-npm install -g webpack
+npm install -g webpack@3.7.1
 ```
 和 
 ```
-npm install --save-dev webpack
+npm install --save-dev webpack@3.7.1
 ```
 
 切换webpack mode
 ```
 webpack --mode development
 webpack --mode production
+```
+
+## 全局安装webpack-cli
+```
+npm install webpack-cli -g
 ```
