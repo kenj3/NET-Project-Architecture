@@ -49,7 +49,12 @@ es6解析
 ```
 npm install babel-loader --save
 ```
-
+解析并抽取css
 ```
 npm install --save-dev extract-text-webpack-plugin
 ```
+多线程打包工具
+```
+npm install --save-dev happypack
+```
+
